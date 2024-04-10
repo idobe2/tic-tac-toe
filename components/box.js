@@ -23,7 +23,7 @@ if (boxes[no] === null && winner === null) {
             {boxes[no] !== null ?
             <View style={styles.boxView}>
                 {boxes[no] === 'X' ?
-                    <Entypo name='cross' size={68} color='brown' />
+                    <Entypo name='cross' size={100} color='brown' />
                     :
                     <Entypo name='circle' size={68} color='purple' />
                 }
